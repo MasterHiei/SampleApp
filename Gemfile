@@ -14,6 +14,7 @@ gem 'jquery-rails', '4.3.1'
 gem 'turbolinks', '5.0.1'
 gem 'jbuilder', '2.7.0'
 gem 'slim-rails', '3.1.3'
+gem 'bootstrap-sass', '3.3.7'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
@@ -26,6 +27,8 @@ group :development do
   gem 'spring', '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
   gem 'html2slim', '0.2.0'
+  gem 'ruby-debug-ide', '0.6.1'
+  gem 'debase', '0.2.2'
 end
 
 group :test do
