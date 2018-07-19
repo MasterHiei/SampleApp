@@ -5,7 +5,7 @@ header.navbar.navbar-fixed-top.navbar-inverse
       ul.nav.navbar-nav.navbar-right
         li = link_to "Home", root_path
         li = link_to "Help", help_path
-        - if logged_in
+        - if logged_in?
           li = link_to "Users", "#"
           li.dropdown
             a href="#" class="dropdown" data-toggle="dropdown"
