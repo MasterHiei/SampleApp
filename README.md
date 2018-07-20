@@ -1,6 +1,6 @@
 # README
 
-This App is a pratice of Rails Tutorial.
+This App is a practice of Rails Tutorial.
 
 ## Differences
 
