@@ -25,5 +25,6 @@
 # Ignore Spring files.
 /spring/*.pid
 
-# Ignore vscode configuration files.
+# Ignore vscode and idea configuration files.
 /.vscode
+/.idea
